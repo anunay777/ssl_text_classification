@@ -100,7 +100,7 @@ def get_train_args():
     parser.add_argument('--eval_steps', default=1000, type=int)
 
     # Optimizer Params
-    parser.add_argument('--lr', default=0.001, type=float)
+    parser.add_argument('--lr', default=0.0005, type=float)
     parser.add_argument('--lr_decay', default=0.5, type=float)
     # Paper: https://arxiv.org/pdf/1707.05589.pdf (Beta1 is set to 0)
     parser.add_argument('--beta1', default=0.9, type=float)
